@@ -10,11 +10,11 @@
 export default {
     data() {
         return{
-            deadline: 'May 27, 2019 23:59:59',
-            days: 'HI',
-            hours: 'TH',
-            minutes: 'ER',
-            seconds: 'E!',
+            deadline: `${5} ${27}, 2019 23:59:59`,
+            days: '',
+            hours: '',
+            minutes: '',
+            seconds: '',
             expired: false
         }
     },
@@ -60,3 +60,9 @@ export default {
     }
 }
 </script>
+<style lang="scss" scoped>
+    .timer{
+        width: 150px;
+        margin: auto;
+    }
+</style>
